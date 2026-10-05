@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#8a1519">
+<title>漢斯廚飾｜老闆私房手作年菜 溫馨預購</title>
+<meta name="description" content="漢斯廚飾老朋友年菜預購：甘露甜醉蝦、招牌滷豬腳、麻油松阪豬米糕，整組販售，低溫冷凍宅配到府。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700;900&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config={theme:{extend:{colors:{cream:'#fdfbf7',paper:'#f8efe0',red1:'#9b1c1f',red2:'#6f0f14',gold:'#c9a24a',goldl:'#ecd9a8',ink:'#3a2a24'},fontFamily:{serif:['"Noto Serif TC"','serif'],sans:['"Noto Sans TC"','sans-serif']}}}}
+</script>
+<style>
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:#fdfbf7;color:#3a2a24;padding-bottom:calc(92px + env(safe-area-inset-bottom,0px));-webkit-tap-highlight-color:transparent}
+/* hero: red + subtle gold coin pattern */
+.hero{position:relative;overflow:hidden;background:
+ url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56' viewBox='0 0 56 56'%3E%3Ccircle cx='28' cy='28' r='20' fill='none' stroke='%23c9a24a' stroke-opacity='.13' stroke-width='1.2'/%3E%3Ccircle cx='28' cy='28' r='13' fill='none' stroke='%23c9a24a' stroke-opacity='.10'/%3E%3C/svg%3E"),
+ radial-gradient(120% 70% at 50% 0%,#b8282c 0%,#8a1519 58%,#6f0f14 100%)}
+.gold-line{height:1px;background:linear-gradient(90deg,transparent,#c9a24a,transparent)}
+.fu{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;transform:rotate(45deg);background:linear-gradient(135deg,#c0272b,#8a1519);border:1.5px solid #c9a24a;border-radius:4px}
+.fu span{transform:rotate(-45deg);color:#ecd9a8;font:900 14px/1 "Noto Serif TC",serif}
+/* carousel */
+.snap{display:flex;align-items:flex-start;gap:12px;overflow-x:auto;overflow-y:hidden;padding:0 20px 16px;transition:height .35s ease;scroll-padding-inline:20px;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.snap::-webkit-scrollbar{display:none}
+.slide{flex:0 0 88%;scroll-snap-align:start;scroll-snap-stop:always;display:block;padding:0;background:none;border:0}
+.slide img{display:block;width:100%;height:auto;border-radius:16px;background:#fff;border:1px solid #ecd9a8;box-shadow:0 8px 22px rgba(111,15,20,.16)}
+.dot{width:7px;height:7px;border-radius:99px;background:#d9c9a4;transition:width .25s,background .25s}
+.dot.on{width:20px;background:#9b1c1f}
+/* motion */
+.glow{animation:glow 2.4s ease-in-out infinite}
+@keyframes glow{0%,100%{box-shadow:0 6px 18px rgba(155,28,31,.45),0 0 0 0 rgba(201,162,74,.6)}50%{box-shadow:0 8px 26px rgba(155,28,31,.6),0 0 0 9px rgba(201,162,74,0)}}
+.sheen{position:relative;overflow:hidden}
+.sheen::after{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.38),transparent);transform:skewX(-20deg);animation:sheen 3.6s ease-in-out infinite}
+@keyframes sheen{0%,60%{left:-60%}100%{left:130%}}
+.sway{transform-origin:50% 0;animation:sway 4s ease-in-out infinite alternate}
+.sway.b{animation-delay:-2s;animation-duration:4.6s}
+@keyframes sway{from{transform:rotate(-4deg)}to{transform:rotate(4deg)}}
+.spark{position:absolute;top:-10px;width:6px;height:6px;border-radius:50%;background:radial-gradient(circle,#f6e3a6,#c9a24a);opacity:0;animation:fall linear infinite}
+@keyframes fall{0%{transform:translateY(0) scale(.8);opacity:0}15%{opacity:.9}100%{transform:translateY(520px) scale(1.1);opacity:0}}
+@media (prefers-reduced-motion:reduce){.glow,.sheen::after,.sway,.spark{animation:none}.spark{display:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body class="font-sans antialiased">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="lantern" viewBox="0 0 60 120">
+      <line x1="30" y1="0" x2="30" y2="14" stroke="#c9a24a" stroke-width="2"/>
+      <rect x="20" y="14" width="20" height="7" rx="2" fill="#c9a24a"/>
+      <ellipse cx="30" cy="48" rx="26" ry="27" fill="#c0272b"/>
+      <ellipse cx="30" cy="48" rx="13" ry="27" fill="none" stroke="#e45a50" stroke-width="1.5"/>
+      <ellipse cx="30" cy="48" rx="26" ry="27" fill="none" stroke="#8a1519" stroke-width="1.5"/>
+      <text x="30" y="58" text-anchor="middle" font-family="Noto Serif TC,serif" font-weight="900" font-size="28" fill="#ecd9a8">福</text>
+      <rect x="20" y="73" width="20" height="7" rx="2" fill="#c9a24a"/>
+      <line x1="30" y1="80" x2="30" y2="112" stroke="#c9a24a" stroke-width="2"/>
+      <path d="M24 112h12l-2 8h-8z" fill="#e0b84f"/>
+    </symbol>
+    <symbol id="kid" viewBox="0 0 100 120">
+      <path d="M26 118c0-26 10-40 24-40s24 14 24 40z" fill="#c0272b" stroke="#8a1519" stroke-width="2"/>
+      <path d="M50 80v38" stroke="#ecd9a8" stroke-width="2"/><circle cx="50" cy="96" r="4.5" fill="#e0b84f"/>
+      <path d="M30 90c-8-4-12-12-8-22" stroke="#c0272b" stroke-width="9" stroke-linecap="round" fill="none"/>
+      <path d="M70 90c8-4 12-12 8-24" stroke="#c0272b" stroke-width="9" stroke-linecap="round" fill="none"/>
+      <circle cx="22" cy="66" r="5.5" fill="#ffe2c6"/><circle cx="78" cy="64" r="5.5" fill="#ffe2c6"/>
+      <g transform="rotate(8 81 48)"><rect x="72" y="36" width="18" height="26" rx="2.5" fill="#e23a3a" stroke="#c9a24a" stroke-width="1.5"/><circle cx="81" cy="48" r="4" fill="#e0b84f"/></g>
+      <circle cx="50" cy="46" r="24" fill="#ffe2c6" stroke="#e8b98f" stroke-width="1.5"/>
+      <path d="M26 42c0-17 11-26 24-26s24 9 24 26c-6-7-14-10-24-10s-18 3-24 10z" fill="#8a1519"/>
+      <circle cx="50" cy="14" r="5.5" fill="#e0b84f"/>
+      <path d="M37 48q3-3.5 6 0M57 48q3-3.5 6 0" stroke="#3a2a24" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+      <circle cx="35" cy="56" r="4.2" fill="#ff9f9a" opacity=".65"/><circle cx="65" cy="56" r="4.2" fill="#ff9f9a" opacity=".65"/>
+      <path d="M44 57q6 6 12 0" stroke="#b5503f" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="lamb" viewBox="0 0 100 100">
+      <ellipse cx="40" cy="92" rx="8" ry="5" fill="#5b4036"/><ellipse cx="60" cy="92" rx="8" ry="5" fill="#5b4036"/>
+      <g fill="#fff8ea" stroke="#e6d3ac" stroke-width="1.6"><circle cx="27" cy="52" r="16"/><circle cx="73" cy="52" r="16"/><circle cx="37" cy="31" r="16"/><circle cx="63" cy="31" r="16"/><circle cx="50" cy="70" r="19"/><circle cx="50" cy="48" r="24"/></g>
+      <ellipse cx="27" cy="60" rx="10" ry="5" transform="rotate(-20 27 60)" fill="#f3d9bf" stroke="#dcb893"/><ellipse cx="73" cy="60" rx="10" ry="5" transform="rotate(20 73 60)" fill="#f3d9bf" stroke="#dcb893"/>
+      <ellipse cx="50" cy="57" rx="18" ry="20" fill="#f3d9bf" stroke="#dcb893" stroke-width="1.6"/>
+      <path d="M38 24c-9-5-8-14 1-14M62 24c9-5 8-14-1-14" stroke="#c9a24a" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <circle cx="43" cy="55" r="2.6" fill="#3a2a24"/><circle cx="57" cy="55" r="2.6" fill="#3a2a24"/>
+      <circle cx="36" cy="63" r="3.6" fill="#ff9f9a" opacity=".7"/><circle cx="64" cy="63" r="3.6" fill="#ff9f9a" opacity=".7"/>
+      <ellipse cx="50" cy="63" rx="3.2" ry="2.4" fill="#8a5a44"/><path d="M45 68q5 4 10 0" stroke="#8a5a44" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+      <rect x="30" y="76" width="40" height="9" rx="4.5" fill="#c0272b"/><rect x="62" y="80" width="7" height="13" rx="3" fill="#c0272b"/><circle cx="65.5" cy="94" r="2.5" fill="#e0b84f"/>
+    </symbol>
+  </defs>
+</svg>
+
+<div class="mx-auto max-w-md min-h-screen bg-cream shadow-[0_0_40px_rgba(0,0,0,.08)] overflow-x-clip">
+
+  <!-- Banner -->
+  <header class="hero text-center text-cream px-6 pt-24 pb-14">
+    <svg class="sway absolute left-3 top-0 w-12 h-24" aria-hidden="true"><use href="#lantern"/></svg>
+    <svg class="sway b absolute right-3 top-0 w-12 h-24" aria-hidden="true"><use href="#lantern"/></svg>
+    <i class="spark" style="left:14%;animation-duration:7s;animation-delay:0s"></i>
+    <i class="spark" style="left:30%;animation-duration:9s;animation-delay:2s"></i>
+    <i class="spark" style="left:48%;animation-duration:8s;animation-delay:4s"></i>
+    <i class="spark" style="left:66%;animation-duration:10s;animation-delay:1s"></i>
+    <i class="spark" style="left:84%;animation-duration:7.5s;animation-delay:3s"></i>
+
+    <div class="absolute top-6 inset-x-0 flex justify-center">
+      <div class="bg-cream rounded-full px-5 py-2 shadow-lg border border-gold/60"><img src="images/logo.jpg" alt="Hans Küche 漢斯廚飾 Logo" class="h-8 w-auto"></div>
+    </div>
+
+    <p class="text-[12px] tracking-[.18em] text-goldl">We are kitchen addicts in taiwan</p>
+    <p class="font-serif font-bold text-goldl text-base mt-1 tracking-[.3em]">漢斯廚飾</p>
+
+    <h1 class="mt-6 font-serif font-black text-[27px] leading-[1.45]">🏮 老闆私房手作年菜<br><span class="text-goldl">金羊迎春</span>溫馨預購</h1>
+    <div class="mt-5 flex items-center justify-center gap-3 text-goldl"><span class="gold-line w-16"></span><span class="fu"><span>福</span></span><span class="gold-line w-16"></span></div>
+
+    <div class="mt-6 rounded-2xl bg-black/15 border border-gold/40 px-5 py-5 text-left text-[15.5px] leading-8 text-[#fbeee0] space-y-2">
+      <p class="font-bold text-goldl">感謝老朋友們一路對漢斯廚飾的支持！</p>
+      <p>今年過年，我們除了持續廚具的服務外，同時加賣老闆私下吃到驚為天人、親自掛保證的私房年菜！</p>
+      <p>不用在廚房忙半天，加熱就能輕鬆端出餐廳級的豐盛年夜飯。名額有限，為家人加菜手腳要快！</p>
+    </div>
+    <a href="#dishes" class="mt-7 inline-block rounded-full border border-gold text-goldl px-7 py-3 text-[15px] active:bg-white/10">先看三道年菜 ↓</a>
+  </header>
+
+  <!-- Set card (red envelope feel) -->
+  <section class="px-5 -mt-6 relative z-10">
+    <div class="rounded-2xl bg-gradient-to-b from-[#fffaf0] to-paper border-2 border-gold/70 shadow-xl px-5 py-5 text-center">
+      <p class="font-serif font-black text-red1 text-[20px]">一套三道菜・整組販售</p>
+      <div class="gold-line my-3"></div>
+      <p class="text-[15px] leading-7">甘露甜醉蝦　＋　招牌滷豬腳　＋　麻油松阪豬米糕</p>
+      <p class="text-sm text-ink/60 mt-1">本組合不拆賣</p>
+    </div>
+  </section>
+
+  <main id="dishes" class="pt-12">
+
+    <!-- Dish 1 -->
+    <article class="mb-14">
+      <div class="px-6 mb-4 text-center">
+        <p class="text-gold text-sm tracking-[.2em]">年菜 壹</p>
+        <h2 class="font-serif font-black text-[25px] text-red1 mt-1">甘露甜醉蝦</h2>
+        <p class="text-[13px] text-ink/60 mt-1">600g／真空冷凍盒裝</p>
+      </div>
+      <div class="gallery" data-name="甘露甜醉蝦">
+        <div class="snap">
+          <button class="slide"><img src="images/shrimp-1.jpg" alt="甘露甜醉蝦 菜色主視覺" width="1100" height="1382"></button>
+          <button class="slide"><img src="images/shrimp-2.jpg" alt="甘露甜醉蝦 紅色喜慶擺盤" width="1100" height="1650" loading="lazy" decoding="async"></button>
+          <button class="slide"><img src="images/shrimp-3.jpg" alt="明水三九七食堂與嚴選食材" width="1036" height="1146" loading="lazy" decoding="async"></button>
+          <button class="slide"><img src="images/shrimp-4.jpg" alt="甘露甜醉蝦 使用食材" width="1036" height="1558" loading="lazy" decoding="async"></button>
+          <button class="slide"><img src="images/shrimp-5.jpg" alt="甘露甜醉蝦 解凍退冰方式" width="1036" height="626" loading="lazy" decoding="async"></button>
+          <button class="slide"><img src="images/shrimp-6.jpg" alt="甘露甜醉蝦 產品資訊" width="1036" height="1417" loading="lazy" decoding="async"></button>
+        </div>
+        <div class="dots flex justify-center gap-1.5 mt-3"></div>
+      </div>
+      <p class="text-center text-xs text-ink/45 mt-2">左右滑動看更多・點圖可放大</p>
+      <div class="px-6 mt-5">
+        <div class="flex flex-wrap justify-center gap-2 mb-4">
+          <span class="rounded-full bg-paper border border-goldl text-red1 text-[13px] px-3 py-1">100% 無添加</span>
+          <span class="rounded-full bg-paper border border-goldl text-red1 text-[13px] px-3 py-1">花雕・紹興酒香</span>
+          <span class="rounded-full bg-paper border border-goldl text-red1 text-[13px] px-3 py-1">漢方藥膳</span>
+        </div>
+        <div class="font-serif text-[16px] leading-[2] space-y-3 text-ink">
+          <p>嚴選台灣在地養殖白蝦，以百分之百無添加的烹調方式呈現。</p>
+          <p>精準拿捏比例，以花雕酒與陳年紹興酒為引，搭配漢方中藥材，讓酒香與藥膳香氣相得益彰，恰如其分地襯托出蝦肉的自然鮮甜與高雅風範。</p>
+          <p>口感層次豐富，蝦肉脆彈鮮甜，入口酒香盈鼻，回味無窮。</p>
+        </div>
+      </div>
+    </article>
+
+    <div class="flex items-center justify-center gap-3 mb-14"><span class="gold-line w-14"></span><div class="text-center"><svg viewBox="0 0 100 120" class="w-20 h-24 mx-auto" aria-hidden="true"><use href="#kid"/></svg><p class="font-serif font-bold text-gold text-sm tracking-[.3em] mt-1">恭喜發財</p></div><span class="gold-line w-14"></span></div>
+
+    <!-- Dish 2 -->
+    <article class="mb-14">
+      <div class="px-6 mb-4 text-center">
+        <p class="text-gold text-sm tracking-[.2em]">年菜 貳</p>
+        <h2 class="font-serif font-black text-[25px] text-red1 mt-1">招牌滷豬腳</h2>
+        <p class="text-[13px] text-ink/60 mt-1">單包豬腳 800g／真空冷凍包裝</p>
+      </div>
+      <div class="gallery" data-name="招牌滷豬腳">
+        <div class="snap">
+          <button class="slide"><img src="images/pork-1.jpg" alt="招牌滷豬腳 菜色主視覺" width="1100" height="1193"></button>
+          <button class="slide"><img src="images/pork-2.jpg" alt="招牌滷豬腳的故事" width="1036" height="1386" loading="lazy" decoding="async"></button>
+          <button class="slide"><img src="images/pork-3.jpg" alt="輕鬆即食、Q彈豬皮" width="1036" height="1193" loading="lazy" decoding="async"></button>
+          <button class="slide"><img src="images/pork-4.jpg" alt="濃香甘甜・嚴選國產豬肉" width="1036" height="1549" loading="lazy" decoding="async"></button>
+          <button class="slide"><img src="images/pork-5.jpg" alt="招牌滷豬腳 解凍加熱方式" width="1036" height="1111" loading="lazy" decoding="async"></button>
+          <button class="slide"><img src="images/pork-6.jpg" alt="招牌滷豬腳 產品資訊" width="1036" height="1417" loading="lazy" decoding="async"></button>
+        </div>
+        <div class="dots flex justify-center gap-1.5 mt-3"></div>
+      </div>
+      <p class="text-center text-xs text-ink/45 mt-2">左右滑動看更多・點圖可放大</p>
+      <div class="px-6 mt-5">
+        <div class="flex flex-wrap justify-center gap-2 mb-4">
+          <span class="rounded-full bg-paper border border-goldl text-red1 text-[13px] px-3 py-1">一隻腳只切六塊</span>
+          <span class="rounded-full bg-paper border border-goldl text-red1 text-[13px] px-3 py-1">六六大順</span>
+          <span class="rounded-full bg-paper border border-goldl text-red1 text-[13px] px-3 py-1">膠質滿滿不膩</span>
+        </div>
+        <div class="font-serif text-[16px] leading-[2] space-y-3 text-ink">
+          <p>是台北大直區居民的後廚房，招牌滷豬腳更是每桌必點，年節必整鍋外帶的美味料理。</p>
+          <p>從選用可溯源的豬腳開始，一隻腳只切六塊，大塊不管是上桌或祭祀都是大方的傳統延續，也有著六六大順的寓意存在。</p>
+          <p>再來經過非常繁複的川燙與洗滌工序，才能到烹調的步驟，慢燉入味，膠質滿滿黏口不膩，是單純濃醇香的媽媽味，一口接一口是種回到家的安心美味。</p>
+        </div>
+      </div>
+    </article>
+
+    <div class="flex items-center justify-center gap-3 mb-14"><span class="gold-line w-14"></span><div class="text-center"><svg viewBox="0 0 100 100" class="w-24 h-24 mx-auto" aria-hidden="true"><use href="#lamb"/></svg><p class="font-serif font-bold text-gold text-sm tracking-[.3em] mt-1">三陽開泰</p></div><span class="gold-line w-14"></span></div>
+
+    <!-- Dish 3 -->
+    <article class="mb-12">
+      <div class="px-6 mb-4 text-center">
+        <p class="text-gold text-sm tracking-[.2em]">年菜 參</p>
+        <h2 class="font-serif font-black text-[25px] text-red1 mt-1">麻油松阪豬米糕</h2>
+        <p class="text-[13px] text-ink/60 mt-1">台灣松阪豬肉片・冷凍包裝</p>
+      </div>
+      <div class="gallery" data-name="麻油松阪豬米糕">
+        <div class="snap">
+          <button class="slide"><img src="images/rice-1.jpg" alt="麻油松阪豬米糕 菜色主視覺" width="1100" height="1100"></button>
+          <button class="slide"><img src="images/rice-2.jpg" alt="麻油松阪豬米糕 品牌故事" width="1036" height="1648" loading="lazy" decoding="async"></button>
+          <button class="slide"><img src="images/rice-3.jpg" alt="松阪豬肉片 珍稀部位介紹" width="1036" height="1517" loading="lazy" decoding="async"></button>
+          <button class="slide"><img src="images/rice-4.jpg" alt="麻油松阪豬米糕 擺盤照" width="1100" height="734" loading="lazy" decoding="async"></button>
+          <button class="slide"><img src="images/rice-5.jpg" alt="麻油松阪豬米糕 解凍加熱方式" width="1036" height="696" loading="lazy" decoding="async"></button>
+          <button class="slide"><img src="images/rice-6.jpg" alt="麻油松阪豬米糕 產品資訊" width="1036" height="1576" loading="lazy" decoding="async"></button>
+        </div>
+        <div class="dots flex justify-center gap-1.5 mt-3"></div>
+      </div>
+      <p class="text-center text-xs text-ink/45 mt-2">左右滑動看更多・點圖可放大</p>
+      <div class="px-6 mt-5">
+        <div class="flex flex-wrap justify-center gap-2 mb-4">
+          <span class="rounded-full bg-paper border border-goldl text-red1 text-[13px] px-3 py-1">黃金六兩松阪肉</span>
+          <span class="rounded-full bg-paper border border-goldl text-red1 text-[13px] px-3 py-1">一豬僅兩片</span>
+          <span class="rounded-full bg-paper border border-goldl text-red1 text-[13px] px-3 py-1">嫩中帶脆</span>
+        </div>
+        <div class="font-serif text-[16px] leading-[2] space-y-3 text-ink">
+          <p>選用台灣豬稀少部位——松阪豬肉片。</p>
+          <p>有「黃金六兩」之美名的松阪肉，來自豬頸下巴兩側，一隻豬僅有兩片，為口感最佳部位，嫩中帶脆、肉質油花甜美而不膩。</p>
+          <p>手工精修多餘脂肪，逆紋斜切的手法，傳統繁雜的料理，現在可簡單上桌，享受老饕級盛宴。</p>
+        </div>
+      </div>
+    </article>
+
+    <div class="flex items-end justify-center gap-2 mb-10 -mt-2"><svg viewBox="0 0 100 120" class="w-20 h-24" aria-hidden="true"><use href="#kid"/></svg><svg viewBox="0 0 100 100" class="w-24 h-24" aria-hidden="true"><use href="#lamb"/></svg></div>
+    <p class="text-center font-serif font-bold text-gold tracking-[.35em] -mt-6 mb-10">新年快樂</p>
+
+    <!-- Notes -->
+    <section class="px-5 mb-10">
+      <div class="rounded-2xl bg-paper border-2 border-dashed border-gold/70 px-5 py-5">
+        <h3 class="font-serif font-bold text-red1 text-lg mb-3">❄️ 購買前請留意</h3>
+        <ul class="space-y-3 text-[15px] leading-7">
+          <li class="flex gap-2"><span class="text-gold">◆</span><span>本組合為<b>整組販售</b>（一套三道菜，不拆賣）。</span></li>
+          <li class="flex gap-2"><span class="text-gold">◆</span><span>全程採用<b>低溫冷凍宅配</b>到府，收到後請務必<b>冷凍保存</b>（-18°C 以下）。</span></li>
+          <li class="flex gap-2"><span class="text-gold">◆</span><span>過敏原：醉蝦含蝦類；豬腳含大豆、含麩質穀類；米糕含蛋、芝麻、麩質、奶類、大豆。對其過敏者不適合食用。</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="px-5 pb-12 text-center">
+      <p class="font-serif font-black text-[22px] text-red1">名額有限<br>為家人加菜手腳要快！</p>
+      <a href="https://page.cashier.ecpay.com.tw/forms/dEXE" target="_blank" rel="noopener noreferrer"
+         class="glow sheen mt-5 block rounded-full bg-gradient-to-b from-[#c8292d] to-[#8a1519] border-2 border-gold text-white font-bold text-[18px] py-4 active:scale-[.98] transition-transform">
+        🛒 立即前往綠界安全結帳預購
+      </a>
+    </section>
+  </main>
+
+  <footer class="hero text-center text-cream px-6 py-9">
+    <p class="font-serif font-bold text-lg">漢斯廚飾</p>
+    <p class="text-xs tracking-[.14em] text-goldl mt-1">We are kitchen addicts in taiwan</p>
+    <p class="text-sm text-goldl mt-4">聯絡電話：<a href="tel:0226085769" class="underline">02-2608-5769</a></p>
+    <p class="text-xs text-goldl/70 mt-4">新年快樂・闔家平安</p>
+  </footer>
+</div>
+
+<!-- Sticky checkout bar -->
+<div class="fixed inset-x-0 bottom-0 z-40">
+  <div class="mx-auto max-w-md bg-cream/95 backdrop-blur border-t border-goldl px-4 pt-3" style="padding-bottom:calc(12px + env(safe-area-inset-bottom,0px))">
+    <a href="https://page.cashier.ecpay.com.tw/forms/dEXE" target="_blank" rel="noopener noreferrer"
+       class="glow sheen block text-center rounded-full bg-gradient-to-b from-[#c8292d] to-[#8a1519] border-2 border-gold text-white font-bold text-[17px] py-3.5 active:scale-[.98] transition-transform">
+      🛒 立即前往綠界安全結帳預購
+    </a>
+  </div>
+</div>
+
+<!-- Lightbox -->
+<div id="lb" class="fixed inset-0 z-50 hidden bg-black/90 items-center justify-center p-3" role="dialog" aria-modal="true">
+  <button id="lbx" class="absolute top-4 right-4 text-white text-3xl leading-none w-11 h-11" aria-label="關閉">×</button>
+  <img id="lbimg" src="" alt="" class="max-h-full max-w-full object-contain">
+</div>
+
+<script>
+document.querySelectorAll('.gallery').forEach(g=>{
+  const sc=g.querySelector('.snap'),slides=[...sc.children],box=g.querySelector('.dots');
+  const dots=slides.map((s,i)=>{const d=document.createElement('button');d.className='dot'+(i?'':' on');d.setAttribute('aria-label','第'+(i+1)+'張');
+    d.onclick=()=>sc.scrollTo({left:s.offsetLeft-20,behavior:'smooth'});box.appendChild(d);return d});
+  let t=false,cur=0;
+  const fit=()=>{sc.style.height=(slides[cur].offsetHeight+16)+'px'};
+  slides.forEach(s=>s.querySelector('img').addEventListener('load',fit));
+  addEventListener('load',fit);addEventListener('resize',fit);fit();
+  sc.addEventListener('scroll',()=>{if(t)return;t=true;requestAnimationFrame(()=>{
+    let k=0,m=1e9;slides.forEach((s,i)=>{const d=Math.abs(s.offsetLeft-20-sc.scrollLeft);if(d<m){m=d;k=i}});
+    if(k!==cur){cur=k;fit()}
+    dots.forEach((d,i)=>d.classList.toggle('on',i===k));t=false})},{passive:true});
+});
+const lb=document.getElementById('lb'),lbi=document.getElementById('lbimg');
+document.querySelectorAll('.slide').forEach(b=>b.addEventListener('click',()=>{
+  const i=b.querySelector('img');lbi.src=i.src;lbi.alt=i.alt;lb.classList.remove('hidden');lb.classList.add('flex');
+}));
+const close=()=>{lb.classList.add('hidden');lb.classList.remove('flex')};
+lb.addEventListener('click',close);document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
+</script>
+</body>
+</html>
